@@ -3,7 +3,7 @@ import os
 import random
 from time import sleep, perf_counter
 from multiprocessing import Pool, Manager
-from GV.src.showa.modules import commands
+from module import commands
 
 
 LUT = {'C2': '0', 'P1': '1', 'P2': '2', 'P3': '3', 'P4': '4',
